@@ -2027,7 +2027,13 @@ input, select, textarea {
 		}
 
 		div.description>p{
-			color: #303030;
+			color: #ffffff;
+		}
+		div.description>header>h1>strong{
+			color: #f8f8f8;
+		}
+		div.description>h3>strong{
+			color: #e8e9e9;
 		}
 
 		.wrapper.style2 {
@@ -2136,7 +2142,7 @@ input, select, textarea {
 /* Articles */
 
 	body {
-		background-image: url("images/white-background.jpg");
+		background-color: #282828;
 		background-position: 50% 0%;
 
 	}
