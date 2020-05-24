@@ -1,4 +1,4 @@
-f@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
 
 /*
@@ -98,11 +98,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		/*font-family: 'Open Sans', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
-		font-size: 13pt;
+		font-size: 1rem;
 	}
 
 	a {
@@ -2058,7 +2058,7 @@ input, select, textarea {
 	.wrapper {
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
+		text-align: left;
 	}
 
 		.wrapper.style1 {
@@ -2071,29 +2071,30 @@ input, select, textarea {
 		}
 
 		div.description>p{
-			color: #ffffff;
+			color: #111111;
+			font-size: 1.3em;
 		}
 		div.description>header>h1>strong{
-			color: #f8f8f8;
+			color: #000000;
 		}
 		div.description>h3>strong{
-			color: #e8e9e9;
+			color: #000000;
 		}
 
 		.wrapper.style2 {
-			background-image: url("images/bg.png");
+			/*background-image: url("images/bg.png");*/
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-image: url("images/bg.png");
+			/*background-image: url("images/bg.png");*/
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-image: url("images/bg.png");
+			/*background-image: url("images/bg.png");*/
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
