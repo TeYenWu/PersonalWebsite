@@ -195,7 +195,6 @@ input, select, textarea {
 		border: 0;
 		border-top: solid 1px #444;
 		border-top-color: rgba(0, 0, 0, 0.35);
-		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 3em 0;
 	}
@@ -221,37 +220,61 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-/* experience / latest news */
-	.experienceList{
+    /* experience / latest news */
+	.newsList{
 	  width:60%;
-	  margin: 0 auto;
 	}
  
-	.experienceList ol {
+	.newsList ol {
 	  color: #555;
 	  list-style-type: disc;
 	  text-align: left;
 	 
 	}
 	 
-	.experienceList ol li {
+	.newsList ol li {
 	  position: relative;
 	  font: bold italic 25px Helvetica, Verdana, sans-serif;
 	  color: #555;
 	  margin-bottom: 20px;
 	}
 	 
-	.experienceList li p {
+	.newsList li p {
 	  display: inline;
 	  font: 18px Helvetica, sans-serif;
 	  padding-left: 30px;
 	  color: #555;
 	}
 	 
-	.experienceList span {
+	.newsLists span {
 	  /*position: absolute;*/
 	   display: inline-block;
 	}
+
+	.experienceItem{
+		margin: 0 0 4rem 0;
+	}
+
+	.experiencelogo {
+		float: inline-start;
+		display: inline-block;
+		}
+	.experiencelogo img {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+	}
+	.experiencedetails {
+		float: inline-start;
+		vertical-align: top;
+		/* height: 5rem; */
+		display: inline-block;
+		}
+	.experiencedetails p {
+		margin: 0.5em 0 0 0 ;
+		color: #000;
+		}
+
 
 /* Container */
 
@@ -1972,39 +1995,43 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #222;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: left;
 		padding: 2em;
 		height: 550px;
+		color:#fff
 	}
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			color:#fff
 		}
 
 		.box.style1 h3 {
 			margin-bottom: 0.5em;
+			color:#fff
 		}
 
 		.box.style2 h3 {
 			margin-bottom: 0.2em;
 			margin-right: 0.25em;
 			display: inline-block; 
+			color:#fff
 		}
 
 		.box.style2 h5 {
 
 			margin-bottom: 0.1em;
 			display: inline-block; 
-			color: #7a7a7a;
+			color: #afafaf;
 		}
 
 		.box.style2 h6 {
 			font-size: 16pt;
 			margin-bottom: 1em;
 			display: inline;
-			color: #7a7a7a;
+			color:#fff
 		}
 
 		.box.style2 .image {
@@ -2018,6 +2045,7 @@ input, select, textarea {
 		.box.style2 p {
 			margin-top: 0.1em;
 			margin-bottom: 0.1em;
+			color:#fff
 		}
 
 /* Icons */
@@ -2056,8 +2084,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		padding: 8em 0 8em 0;
+		padding: 4em 0 4em 0;
 		text-align: left;
 	}
 
@@ -2084,13 +2111,11 @@ input, select, textarea {
 		.wrapper.style2 {
 			/*background-image: url("images/bg.png");*/
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
 			/*background-image: url("images/bg.png");*/
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #fff;
 		}
 
 		.wrapper.style4 {
