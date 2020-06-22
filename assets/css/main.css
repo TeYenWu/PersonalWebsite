@@ -2250,8 +2250,10 @@ input, select, textarea {
 				color: inherit;
 			}
 
-	#contact footer {
+	footer {
+		text-align: center;
 		font-size: 0.9em;
+		margin: auto;
 	}
 
 /* Copyright */
