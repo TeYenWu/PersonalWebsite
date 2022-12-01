@@ -10,6 +10,7 @@
 		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.7/css/all.min.css">
 		<link rel="stylesheet" href="assets/css/custom-style.css" />
+
 		<meta charset="utf-8">
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LXFW6JX1J"></script>
@@ -20,14 +21,24 @@
 
 		  gtag('config', 'G-1LXFW6JX1J');
 		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
 	</head>
 	<body class="is-preload">
 		 <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFFFF; ">
 		  <a class="navbar-brand mb-0 h1" href="">Te-Yen Wu</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
+		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item active">
 		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -56,7 +67,7 @@
 	                    <p> Te-Yen Wu is a PhD candidate from <a href="https://www.cs.dartmouth.edu/~hci/">XDiscovery Lab</a> at  <a href="https://home.dartmouth.edu"> Dartmouth College</a>, advised by <a href="https://www.cs.dartmouth.edu/~xingdong/"> Xing-Dong Yang</a>.
 									His research vision is to create smart environments through smart everyday materials that can be easily and seamlessly integrated into everyday objects at large scale using established methods (e.g. cutting and assembly).
 									Towards the vision, his PhD research focuses on <strong>Human-Material Interactions</strong> (HMI), which involves the design, development, and evaluation of interactions and new interfaces of smart materials. 
-									In addition to HMI, he has also worked on other topics, such as <strong> wearable input system</strong>, <strong> AR/VR interactions</strong>, <strong>accessible interface</strong> and <strong>educational Tool</strong>. He has a strong record of 18/20 papers published at top HCI venues (CHI, and UIST). This includes a Best paper award at UIST 19 and an Honorable Mention award at CHI 2020. His research has also attracted numerous public interests via Internet News (e.g. Engadget, Times).   <strong>He is on the job market this year (2022)</strong>. Please feel free to reach out to him for any opportunity. 
+									In addition to HMI, he has also worked on other topics, such as <strong> wearable input system</strong>, <strong> AR/VR interactions</strong>, <strong>accessible interface</strong> and <strong>educational Tool</strong>. He has a strong record of 17/20 papers published at top HCI venues (CHI, and UIST). This includes a Best paper award at UIST 19 and an Honorable Mention award at CHI 2020. His research has also attracted numerous public interests via Internet News (e.g. Engadget, Times).   <strong>He is on the job market this year (2022)</strong>. Please feel free to reach out to him for any opportunity. 
 						</p>
                     </div>
                 </div>
@@ -74,7 +85,7 @@
 	                <img src="images/FutureMaterials.jpg">
 	            </div>
 				
-				<div style="margin-top:0px;" class="col-lg-6 mb-8 text-justify"><p>The goal of Ubiquitous Computing is to seamlessly integrate computers into everyday objects, to create a smart environment that can predictively understand and fulfill users’ needs. However, today technologies are leading to a bottleneck, as most hardware components (e.g., touchpads) are not easily compatible with everyday objects (e.g., garments) and too technical to use (e.g., knowledge about circuit design). To overcome this barrier, my research vision is to create a smart environment using smart everyday materials that can be seamlessly integrated into daily objects at large scale using established methods (e.g. cutting and assembly). To achieve this vision, I studied human-material interactions (HMI) to understand how smart materials should be made to empower people to create smart environments. For more details, please read my <u><strong><a href="publications/ResearchStatement.pdf">research statement.</a> </strong></u></p> </div>
+				<div style="margin-top:0px;" class="col-lg-6 mb-8 text-justify"><p>The goal of Ubiquitous Computing is to seamlessly integrate computers into everyday objects, to create a smart environment that can predictively understand and fulfill users’ needs. However, today technologies are leading to a bottleneck, as most hardware components (e.g., touchpads) are not easily compatible with everyday objects (e.g., garments) and too technical to use (e.g., knowledge about circuit design). To overcome this barrier, my research vision is to create a smart environment through smart everyday materials that can be seamlessly integrated into daily objects at large scale using established methods (e.g. cutting and assembly). To achieve this vision, I studied human-material interactions (HMI) to understand how smart materials should be made to empower people to create smart environments. For more details, please read my <u><strong><a href="publications/ResearchStatement.pdf">research statement.</a> </strong></u></p> </div>
 
 				
         	</div>
@@ -529,6 +540,8 @@
 
 	                <h4>Latest News</h4>
 	                <ul class="news" style="font-size: 13px">
+	                	<li>Dec 9. Invited talk at National Taiwan University. </li>
+	                	<li>Nov 9. Invited talk at Salisbury University. </li>
 	                	<li>Oct 31. Talk and Demo at UIST 2022. </li>
 	                	<li>Oct 4.Invited talk at Autodesk. </li>
 	                	<li>Sept 15. One submission to CHI. </li>
@@ -570,12 +583,12 @@
 	            </div>
             <!-- /right column -->
         </div>
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+        <footer>
+	    <div class="container">
+			<small> © 2015 - 2022 All rights reserved.</small>
+		</div>
+        
+</footer>
 
 	</body>
 </html>
